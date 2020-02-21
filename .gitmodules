@@ -7,3 +7,6 @@
 [submodule "Demo"]
 	path = Demo
 	url = https://github.com/YukinoHayakawa/UsagiDemo.git
+[submodule "Test"]
+	path = Test
+	url = https://github.com/YukinoHayakawa/UsagiTest.git
