@@ -1,0 +1,9 @@
+[submodule "Module/Usagi/Module"]
+	path = Module/Usagi/Module
+	url = https://github.com/YukinoHayakawa/UsagiModule.git
+[submodule "Library/Usagi"]
+	path = Library/Usagi
+	url = https://github.com/YukinoHayakawa/Usagi.git
+[submodule "Demo"]
+	path = Demo
+	url = https://github.com/YukinoHayakawa/UsagiDemo.git
