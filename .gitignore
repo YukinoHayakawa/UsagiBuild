@@ -265,3 +265,6 @@ __pycache__/
 
 *.DotSettings
 *.user
+
+
+Template/*.zip

@@ -37,4 +37,5 @@
     </Manifest>
   </ItemDefinitionGroup>
   <Import Project="OptimizeForSpeed.props"/>
+  <Import Project="Thirdparty.props"/>
 </Project>
