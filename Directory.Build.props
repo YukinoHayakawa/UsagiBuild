@@ -1,6 +1,7 @@
 <Project>
   <PropertyGroup>
     <CharacterSet>Unicode</CharacterSet>
+    <LLVMInstallDir>C:\Program Files\LLVM\bin\</LLVMInstallDir>
   </PropertyGroup>
   <PropertyGroup Label="Globals">
     <VcpkgTriplet Condition="'$(Platform)'=='x64'">x64-windows-static</VcpkgTriplet>
