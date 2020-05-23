@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <PlatformToolset>ClangCL</PlatformToolset>
+    <LLVMInstallDir>C:\Program Files\LLVM\bin\</LLVMInstallDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalOptions>-Xclang -std=c++20 -Wno-c++98-compat -Wno-pragma-pack -Wno-macro-redefined</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>

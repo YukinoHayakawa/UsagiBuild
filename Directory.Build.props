@@ -1,7 +1,6 @@
 <Project>
   <PropertyGroup>
     <CharacterSet>Unicode</CharacterSet>
-    <LLVMInstallDir>C:\Program Files\LLVM\bin\</LLVMInstallDir>
   </PropertyGroup>
   <PropertyGroup Label="Globals">
     <VcpkgTriplet Condition="'$(Platform)'=='x64'">x64-windows-static</VcpkgTriplet>
@@ -22,12 +21,13 @@
       <SuppressStartupBanner>false</SuppressStartupBanner>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <LanguageStandard>stdcpplatest</LanguageStandard>
-      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <WarningLevel>Level3</WarningLevel>
       <ConformanceMode>true</ConformanceMode>
       <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatWarningAsError>true</TreatWarningAsError>
       <BrowseInformation>true</BrowseInformation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -37,6 +37,7 @@
       <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
     </Manifest>
   </ItemDefinitionGroup>
+  <Import Project="Clang.props"/>
   <Import Project="OptimizeForSpeed.props"/>
   <Import Project="Thirdparty.props"/>
 </Project>

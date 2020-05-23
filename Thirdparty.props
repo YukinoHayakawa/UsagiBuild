@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <Dir_IncludePath>$(SolutionDir)Thirdparty\include\;$(Dir_IncludePath)</Dir_IncludePath>
+    <Dir_LibraryPath>$(SolutionDir)Thirdparty\lib\;$(Dir_LibraryPath)</Dir_LibraryPath>
+  </PropertyGroup>
+</Project>
