@@ -1,7 +1,7 @@
 <Project>
   <PropertyGroup>
     <PlatformToolset>ClangCL</PlatformToolset>
-    <LLVMInstallDir>C:\Program Files\LLVM\bin\</LLVMInstallDir>
+    <LLVMInstallDir>E:\Dev\cppx\build\Release\bin</LLVMInstallDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(PlatformToolset)'=='ClangCL'">
     <ClCompile>
