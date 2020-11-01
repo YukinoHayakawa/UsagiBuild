@@ -1,11 +1,12 @@
 <Project>
   <PropertyGroup>
     <PlatformToolset>ClangCL</PlatformToolset>
-    <LLVMInstallDir>E:\Dev\cppx\build\Release\bin</LLVMInstallDir>
+    <LLVMInstallDir>E:\Dev\cppx\build\RelWithDebInfo\</LLVMInstallDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(PlatformToolset)'=='ClangCL'">
     <ClCompile>
       <AdditionalOptions>-Xclang -std=c++20 -Wno-c++98-compat -Wno-pragma-pack -Wno-macro-redefined</AdditionalOptions>
+      <PreprocessorDefinitions>_HAS_CXX17;_HAS_CXX20;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
 </Project>
