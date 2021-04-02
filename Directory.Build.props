@@ -34,7 +34,7 @@
       <AssemblyDebug>true</AssemblyDebug>
     </Link>
     <Manifest>
-      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+      <EnableDpiAwareness>PerMonitorHighDPIAwareV2</EnableDpiAwareness>
     </Manifest>
   </ItemDefinitionGroup>
   <Import Project="Clang.props"/>
