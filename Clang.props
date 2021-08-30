@@ -2,11 +2,15 @@
   <PropertyGroup>
     <PlatformToolset>ClangCL</PlatformToolset>
     <LLVMInstallDir>C:\Program Files\LLVM</LLVMInstallDir>
+    <LLVMToolsVersion>12.0.1</LLVMToolsVersion>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(PlatformToolset)'=='ClangCL'">
     <ClCompile>
-      <AdditionalOptions>-Xclang -std=c++20 -Wno-c++98-compat -Wno-pragma-pack -Wno-macro-redefined -Xclang -fdiagnostics-show-template-tree -Xclang -fno-elide-type -march=haswell</AdditionalOptions>
+      <AdditionalOptions>-Xclang -std=c++20 -march=haswell -Wno-pragma-pack</AdditionalOptions>
       <PreprocessorDefinitions>_HAS_CXX17;_HAS_CXX20;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgAutoLink>false</VcpkgAutoLink>
+  </PropertyGroup>
 </Project>
