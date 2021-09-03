@@ -1,6 +1,0 @@
-<Project>
-  <PropertyGroup>
-    <Dir_IncludePath>C:\VulkanSDK\1.2.182.0\Include;$(SolutionDir)Thirdparty\include\;$(Dir_IncludePath)</Dir_IncludePath>
-    <Dir_LibraryPath>$(SolutionDir)Thirdparty\lib\;$(Dir_LibraryPath)</Dir_LibraryPath>
-  </PropertyGroup>
-</Project>

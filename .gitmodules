@@ -1,12 +1,12 @@
 [submodule "Modules/Usagi/Modules"]
 	path = Modules/Usagi/Modules
-	url = https://github.com/YukinoHayakawa/UsagiModules.git
+	url = git@github.com:YukinoHayakawa/UsagiModules.git
 [submodule "Library/Usagi"]
 	path = Library/Usagi
 	url = https://github.com/YukinoHayakawa/Usagi.git
 [submodule "Demos"]
 	path = Demos
-	url = https://github.com/YukinoHayakawa/UsagiDemos.git
+	url = git@github.com:YukinoHayakawa/UsagiDemos.git
 [submodule "Tests"]
 	path = Tests
 	url = https://github.com/YukinoHayakawa/UsagiTests.git

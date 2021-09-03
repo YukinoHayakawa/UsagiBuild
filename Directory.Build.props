@@ -37,5 +37,5 @@
   </ItemDefinitionGroup>
   <Import Project="Clang.props"/>
   <Import Project="OptimizeForSpeed.props"/>
-  <Import Project="Thirdparty.props"/>
+  <Import Project="Thirdparties.props"/>
 </Project>

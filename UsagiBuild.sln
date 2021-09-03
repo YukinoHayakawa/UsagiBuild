@@ -23,117 +23,115 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B72323FA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game Projects", "Game Projects", "{035FC5B9-C2D6-4678-A46A-6D60B97E6BE2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoEcsFireworks", "Demo\DemoEcsFireworks\DemoEcsFireworks.vcxproj", "{E5156A69-E62C-48B3-BCAF-28C58A8F4D0A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoEcsFireworks", "Demos\DemoEcsFireworks\DemoEcsFireworks.vcxproj", "{E5156A69-E62C-48B3-BCAF-28C58A8F4D0A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform Modules", "Platform Modules", "{305267B2-9771-491E-9BAF-28199ADC0C0D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinCommon", "Module\Usagi\Module\Platform\WinCommon\WinCommon.vcxproj", "{CD325DEF-B361-4CC5-87AC-BF51588DBF2D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinCommon", "Modules\Usagi\Modules\Platforms\WinCommon\WinCommon.vcxproj", "{CD325DEF-B361-4CC5-87AC-BF51588DBF2D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common Modules", "Common Modules", "{9EC6E5B0-35C0-4893-8596-B6B51F34D86F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math", "Module\Usagi\Module\Common\Math\Math.vcxproj", "{D4E79012-D153-40C0-B62D-FC9B31495442}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math", "Modules\Usagi\Modules\Common\Math\Math.vcxproj", "{D4E79012-D153-40C0-B62D-FC9B31495442}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Time", "Module\Usagi\Module\Common\Time\Time.vcxproj", "{61C2C8D3-D6D1-4BEA-B122-43142579BA35}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Time", "Modules\Usagi\Modules\Common\Time\Time.vcxproj", "{61C2C8D3-D6D1-4BEA-B122-43142579BA35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Modules", "Service Modules", "{89525759-D6EE-4F0D-A057-C3E646B562BD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win10", "Module\Usagi\Module\Platform\Win10\Win10.vcxproj", "{BA6B6731-DFA8-4DA0-B121-D3D8D584B001}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win10", "Modules\Usagi\Modules\Platforms\Win10\Win10.vcxproj", "{BA6B6731-DFA8-4DA0-B121-D3D8D584B001}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Asset", "Module\Usagi\Module\Service\Asset\Asset.vcxproj", "{8722E8A6-DDC8-4283-8DFF-45CD15E7DC6F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Asset", "Modules\Usagi\Modules\Services\Asset\Asset.vcxproj", "{8722E8A6-DDC8-4283-8DFF-45CD15E7DC6F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoAssetStreaming", "Demo\DemoAssetStreaming\DemoAssetStreaming.vcxproj", "{6B4C9E13-3C5D-41CD-A662-A784AF79F5EE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoAssetStreaming", "Demos\DemoAssetStreaming\DemoAssetStreaming.vcxproj", "{6B4C9E13-3C5D-41CD-A662-A784AF79F5EE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoDummy", "Demo\DemoDummy\DemoDummy.vcxproj", "{5B167DC3-FF65-41DF-80EE-A560886D7FE0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoDummy", "Demos\DemoDummy\DemoDummy.vcxproj", "{5B167DC3-FF65-41DF-80EE-A560886D7FE0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestAssetStreaming", "Test\TestAssetStreaming\TestAssetStreaming.vcxproj", "{3F90F3B3-72A5-49CF-BF0B-07487223F574}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestAssetStreaming", "Tests\TestAssetStreaming\TestAssetStreaming.vcxproj", "{3F90F3B3-72A5-49CF-BF0B-07487223F574}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mobius", "Project\Irregulars\Mobius\Mobius.vcxproj", "{4F03F122-0B6A-4C8A-A912-01EE5641D246}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mobius", "Projects\Irregulars\Mobius\Mobius.vcxproj", "{4F03F122-0B6A-4C8A-A912-01EE5641D246}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoGtaSaMapStreaming", "Demo\DemoGtaSaMapStreaming\DemoGtaSaMapStreaming.vcxproj", "{F7A80961-EAB1-4455-B6F2-6C280549E8EE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoGtaSaMapStreaming", "Demos\DemoGtaSaMapStreaming\DemoGtaSaMapStreaming.vcxproj", "{F7A80961-EAB1-4455-B6F2-6C280549E8EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Asset Modules", "Asset Modules", "{B6804939-7691-4905-99BF-B245A46C11F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI Modules", "UI Modules", "{0F6732F7-0DD8-4286-B90C-88F0EE23F5F7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Transform", "Module\Usagi\Module\Common\Transform\Transform.vcxproj", "{10D4CDAE-AF65-443B-9B55-B69DF086B883}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Transform", "Modules\Usagi\Modules\Common\Transform\Transform.vcxproj", "{10D4CDAE-AF65-443B-9B55-B69DF086B883}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontStash", "Module\Usagi\Module\UI\FontStash\FontStash.vcxproj", "{C5FCECEA-F915-4F47-A239-43FA19A10A5F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontStash", "Modules\Usagi\Modules\UI\FontStash\FontStash.vcxproj", "{C5FCECEA-F915-4F47-A239-43FA19A10A5F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Config", "Module\Usagi\Module\Common\Config\Config.vcxproj", "{12AAD8C0-60D9-4F0B-ADEB-33F22FBF64F6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Config", "Modules\Usagi\Modules\Common\Config\Config.vcxproj", "{12AAD8C0-60D9-4F0B-ADEB-33F22FBF64F6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestModuleConfig", "Test\TestModuleConfig\TestModuleConfig.vcxproj", "{5E8BCA7F-B6C0-49C5-BE85-C417CE977DE7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestModuleConfig", "Tests\TestModuleConfig\TestModuleConfig.vcxproj", "{5E8BCA7F-B6C0-49C5-BE85-C417CE977DE7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vulkan", "Module\Usagi\Module\Platform\Vulkan\Vulkan.vcxproj", "{E51EE650-B088-4940-BEE6-108C8A0ED508}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vulkan", "Modules\Usagi\Modules\Platforms\Vulkan\Vulkan.vcxproj", "{E51EE650-B088-4940-BEE6-108C8A0ED508}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Windowing", "Module\Usagi\Module\Service\Windowing\Windowing.vcxproj", "{BDF27242-7A3C-4DD2-B7C8-62962C96CA08}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Windowing", "Modules\Usagi\Modules\Services\Windowing\Windowing.vcxproj", "{BDF27242-7A3C-4DD2-B7C8-62962C96CA08}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoTextRendering", "Demo\DemoTextRendering\DemoTextRendering.vcxproj", "{2E17D608-0DD9-431F-8BDE-01A282310DB1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoTextRendering", "Demos\DemoTextRendering\DemoTextRendering.vcxproj", "{2E17D608-0DD9-431F-8BDE-01A282310DB1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Input", "Module\Usagi\Module\Service\Input\Input.vcxproj", "{C87B711A-0036-4D0E-AA0B-501677F198FD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Input", "Modules\Usagi\Modules\Services\Input\Input.vcxproj", "{C87B711A-0036-4D0E-AA0B-501677F198FD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoWindowInput", "Demo\DemoWindowInput\DemoWindowInput.vcxproj", "{96949645-B59C-40FA-87B1-3573253DABE9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoWindowInput", "Demos\DemoWindowInput\DemoWindowInput.vcxproj", "{96949645-B59C-40FA-87B1-3573253DABE9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Logging", "Module\Usagi\Module\Common\Logging\Logging.vcxproj", "{E13613A3-B719-4BC5-991A-507402D14C25}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Logging", "Modules\Usagi\Modules\Common\Logging\Logging.vcxproj", "{E13613A3-B719-4BC5-991A-507402D14C25}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExecutorTaskflow", "Module\Usagi\Module\Common\ExecutorTaskflow\ExecutorTaskflow.vcxproj", "{3D4E3561-33CD-4642-90B3-066396B7305B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExecutorTaskflow", "Modules\Usagi\Modules\Common\ExecutorTaskflow\ExecutorTaskflow.vcxproj", "{3D4E3561-33CD-4642-90B3-066396B7305B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoSudokuSolver", "Demo\DemoSudokuSolver\DemoSudokuSolver.vcxproj", "{2D0CB381-DC92-45DB-B74B-B772EBED5E46}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoSudokuSolver", "Demos\DemoSudokuSolver\DemoSudokuSolver.vcxproj", "{2D0CB381-DC92-45DB-B74B-B772EBED5E46}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Research", "Research", "{7EA0ABB3-1ACC-4A0F-9B0D-C5A883D35A7A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestCpuPipelineBottleneck", "Project\Research\TestCpuPipelineBottleneck\TestCpuPipelineBottleneck.vcxproj", "{11F17698-27E6-45A3-97F5-5317ECD2301E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestCpuPipelineBottleneck", "Projects\Research\TestCpuPipelineBottleneck\TestCpuPipelineBottleneck.vcxproj", "{11F17698-27E6-45A3-97F5-5317ECD2301E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestExecutor", "Test\TestExecutor\TestExecutor.vcxproj", "{65BB9A32-5BA4-44D6-9CBF-D06A8FDB3E15}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestExecutor", "Tests\TestExecutor\TestExecutor.vcxproj", "{65BB9A32-5BA4-44D6-9CBF-D06A8FDB3E15}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulkanPerfCounter", "Misc\VulkanPerfCounter\VulkanPerfCounter.vcxproj", "{5F518671-FC41-45A5-8784-109A5684FCFE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LabScheduler", "Project\Research\LabScheduler\LabScheduler.vcxproj", "{F893AD32-FB9E-4947-8185-752666D3FECB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LabScheduler", "Projects\Research\LabScheduler\LabScheduler.vcxproj", "{F893AD32-FB9E-4947-8185-752666D3FECB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestUsagiCore", "Test\TestUsagiCore\TestUsagiCore.vcxproj", "{5A4A3E6D-D824-44CD-8464-CA8FCB8F52F1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestUsagiCore", "Tests\TestUsagiCore\TestUsagiCore.vcxproj", "{5A4A3E6D-D824-44CD-8464-CA8FCB8F52F1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Driver", "Module\Usagi\Module\Common\Driver\Driver.vcxproj", "{3248DEB0-CA9F-4E30-9396-E6C64DE14AF2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Driver", "Modules\Usagi\Modules\Common\Driver\Driver.vcxproj", "{3248DEB0-CA9F-4E30-9396-E6C64DE14AF2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDriver", "Test\TestDriver\TestDriver.vcxproj", "{348BA8EA-703A-493E-ADBF-B56ED44BF5E3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDriver", "Tests\TestDriver\TestDriver.vcxproj", "{348BA8EA-703A-493E-ADBF-B56ED44BF5E3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Script", "Module\Usagi\Module\Common\Script\Script.vcxproj", "{D9CBE878-FCD1-48A6-BF2A-CC0F19894241}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Script", "Modules\Usagi\Modules\Common\Script\Script.vcxproj", "{D9CBE878-FCD1-48A6-BF2A-CC0F19894241}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestScript", "Test\TestScript\TestScript.vcxproj", "{B574B8B8-31A2-4BB6-BC53-499FC722E51F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestScript", "Tests\TestScript\TestScript.vcxproj", "{B574B8B8-31A2-4BB6-BC53-499FC722E51F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestLabScheduler", "Project\Research\TestLabScheduler\TestLabScheduler.vcxproj", "{927E88F9-CD0A-4E86-9313-530F77524F06}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestLabScheduler", "Projects\Research\TestLabScheduler\TestLabScheduler.vcxproj", "{927E88F9-CD0A-4E86-9313-530F77524F06}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{D24C674B-5C1F-4685-9D7F-053D83A2212C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EngineShell", "EngineShell\EngineShell.vcxproj", "{C0133D40-480E-45FE-87F1-32BD2371FB41}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cw", "Misc\Cw\Cw.vcxproj", "{DD3E3D9D-EADE-46C8-ABFE-4B1D81509300}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SchedulingLabShell", "Project\Research\SchedulingLabShell\SchedulingLabShell.vcxproj", "{5AB62736-5409-4565-8F3B-CFADDFCD1FC1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SchedulingLabShell", "Projects\Research\SchedulingLabShell\SchedulingLabShell.vcxproj", "{5AB62736-5409-4565-8F3B-CFADDFCD1FC1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc Modules", "Misc Modules", "{6E7F6A13-43FE-4F3A-893C-D4E07BD48C6F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeneticAlgorithm", "Module\Usagi\Module\Misc\GeneticAlgorithm\GeneticAlgorithm.vcxproj", "{D2FED5D0-0DA4-48AC-B990-28AB9CB89A04}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeneticAlgorithm", "Modules\Usagi\Modules\Misc\GeneticAlgorithm\GeneticAlgorithm.vcxproj", "{D2FED5D0-0DA4-48AC-B990-28AB9CB89A04}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExprSchedulingGurobi", "Project\Research\ExprSchedulingGurobi\ExprSchedulingGurobi.vcxproj", "{54354AEC-3D49-44F1-8CF5-B53C13718659}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExprSchedulingGurobi", "Projects\Research\ExprSchedulingGurobi\ExprSchedulingGurobi.vcxproj", "{54354AEC-3D49-44F1-8CF5-B53C13718659}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Audio", "Module\Usagi\Module\Service\Audio\Audio.vcxproj", "{F39BC478-F22E-45E2-A959-BDDF1ABCCD5C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Audio", "Modules\Usagi\Modules\Services\Audio\Audio.vcxproj", "{F39BC478-F22E-45E2-A959-BDDF1ABCCD5C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExprSchedulingGurobiEnergy", "Project\Research\ExprSchedulingGurobiEnergy\ExprSchedulingGurobiEnergy.vcxproj", "{490CAFE0-FA5F-47B8-9A77-6CC2D8FB68F0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExprSchedulingGurobiEnergy", "Projects\Research\ExprSchedulingGurobiEnergy\ExprSchedulingGurobiEnergy.vcxproj", "{490CAFE0-FA5F-47B8-9A77-6CC2D8FB68F0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExprInstanceSelector", "Project\Research\ExprInstanceSelector\ExprInstanceSelector.vcxproj", "{39E2D1AD-6C10-4066-8A74-F9DAEA8566B4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExprInstanceSelector", "Projects\Research\ExprInstanceSelector\ExprInstanceSelector.vcxproj", "{39E2D1AD-6C10-4066-8A74-F9DAEA8566B4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Executive", "Module\Usagi\Module\Common\Executive\Executive.vcxproj", "{345CDBB7-1EC3-4E1C-AD4F-856A774430F5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Executive", "Modules\Usagi\Modules\Common\Executive\Executive.vcxproj", "{345CDBB7-1EC3-4E1C-AD4F-856A774430F5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics", "Module\Usagi\Module\Service\Graphics\Graphics.vcxproj", "{5AE8F2DA-6B3E-4492-A009-112A62B056BE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics", "Modules\Usagi\Modules\Services\Graphics\Graphics.vcxproj", "{5AE8F2DA-6B3E-4492-A009-112A62B056BE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoHelloSwapchain", "Demo\DemoHelloSwapchain\DemoHelloSwapchain.vcxproj", "{0A7202F2-BEC1-4B26-9088-9ADD57C9C5D9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoHelloSwapchain", "Demos\DemoHelloSwapchain\DemoHelloSwapchain.vcxproj", "{0A7202F2-BEC1-4B26-9088-9ADD57C9C5D9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Color", "Module\Usagi\Module\Common\Color\Color.vcxproj", "{EB6C6B93-5B69-4056-A2ED-829F0F2FC4DE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Color", "Modules\Usagi\Modules\Common\Color\Color.vcxproj", "{EB6C6B93-5B69-4056-A2ED-829F0F2FC4DE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulkanWSIWin32", "Module\Usagi\Module\Platform\VulkanWSIWin32\VulkanWSIWin32.vcxproj", "{834D7749-E81F-4BE5-B397-7BF1C7703502}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulkanWSIWin32", "Modules\Usagi\Modules\Platforms\VulkanWSIWin32\VulkanWSIWin32.vcxproj", "{834D7749-E81F-4BE5-B397-7BF1C7703502}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowSystemIntegration", "Module\Usagi\Module\Service\WindowSystemIntegration\WindowSystemIntegration.vcxproj", "{07B96122-1EB3-49FA-B509-BC227D280CF8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowSystemIntegration", "Modules\Usagi\Modules\Services\WindowSystemIntegration\WindowSystemIntegration.vcxproj", "{07B96122-1EB3-49FA-B509-BC227D280CF8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoGraphicsInit", "Demo\DemoGraphicsInit\DemoGraphicsInit.vcxproj", "{08E18B5C-14A4-4D4E-996D-1893279566B5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoGraphicsInit", "Demos\DemoGraphicsInit\DemoGraphicsInit.vcxproj", "{08E18B5C-14A4-4D4E-996D-1893279566B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -277,10 +275,6 @@ Global
 		{927E88F9-CD0A-4E86-9313-530F77524F06}.Debug|x64.Build.0 = Debug|x64
 		{927E88F9-CD0A-4E86-9313-530F77524F06}.Release|x64.ActiveCfg = Release|x64
 		{927E88F9-CD0A-4E86-9313-530F77524F06}.Release|x64.Build.0 = Release|x64
-		{C0133D40-480E-45FE-87F1-32BD2371FB41}.Debug|x64.ActiveCfg = Debug|x64
-		{C0133D40-480E-45FE-87F1-32BD2371FB41}.Debug|x64.Build.0 = Debug|x64
-		{C0133D40-480E-45FE-87F1-32BD2371FB41}.Release|x64.ActiveCfg = Release|x64
-		{C0133D40-480E-45FE-87F1-32BD2371FB41}.Release|x64.Build.0 = Release|x64
 		{DD3E3D9D-EADE-46C8-ABFE-4B1D81509300}.Debug|x64.ActiveCfg = Debug|x64
 		{DD3E3D9D-EADE-46C8-ABFE-4B1D81509300}.Debug|x64.Build.0 = Debug|x64
 		{DD3E3D9D-EADE-46C8-ABFE-4B1D81509300}.Release|x64.ActiveCfg = Release|x64
@@ -386,7 +380,6 @@ Global
 		{D9CBE878-FCD1-48A6-BF2A-CC0F19894241} = {9EC6E5B0-35C0-4893-8596-B6B51F34D86F}
 		{B574B8B8-31A2-4BB6-BC53-499FC722E51F} = {B72323FA-DADE-40B0-9BE8-37F7469DE8E1}
 		{927E88F9-CD0A-4E86-9313-530F77524F06} = {7EA0ABB3-1ACC-4A0F-9B0D-C5A883D35A7A}
-		{C0133D40-480E-45FE-87F1-32BD2371FB41} = {D24C674B-5C1F-4685-9D7F-053D83A2212C}
 		{DD3E3D9D-EADE-46C8-ABFE-4B1D81509300} = {AF06B800-9AF4-4394-9AF1-159D9780A1F9}
 		{5AB62736-5409-4565-8F3B-CFADDFCD1FC1} = {7EA0ABB3-1ACC-4A0F-9B0D-C5A883D35A7A}
 		{6E7F6A13-43FE-4F3A-893C-D4E07BD48C6F} = {DBE5D443-8D6F-4F18-A8A9-241081973759}
