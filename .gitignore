@@ -264,7 +264,7 @@ __pycache__/
 *.diagsession
 
 *.DotSettings
-*.user
 
 
 Template/*.zip
+/Thirdparties/
