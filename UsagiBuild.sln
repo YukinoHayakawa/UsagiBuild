@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game Projects", "Game Proje
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoEcsFireworks", "Demos\DemoEcsFireworks\DemoEcsFireworks.vcxproj", "{E5156A69-E62C-48B3-BCAF-28C58A8F4D0A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform", "Platform", "{305267B2-9771-491E-9BAF-28199ADC0C0D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{305267B2-9771-491E-9BAF-28199ADC0C0D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinCommon", "Modules\Usagi\Modules\Platforms\WinCommon\WinCommon.vcxproj", "{CD325DEF-B361-4CC5-87AC-BF51588DBF2D}"
 EndProject
@@ -132,6 +132,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gameplay", "Gameplay", "{5862D414-5DF1-4915-860C-436FBEADD642}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo (Not Working)", "Demo (Not Working)", "{D34914DD-EA38-420D-8045-DC55A89BD524}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Asset Handlers", "Asset Handlers", "{4EF5DA70-711B-4818-A091-4758B214B891}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SahProgramModule", "Modules\Usagi\Modules\Assets\SahProgramModule\SahProgramModule.vcxproj", "{10C7F91A-9061-4691-A5DE-C115BCC5CF50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -335,6 +339,10 @@ Global
 		{E5B7E645-8062-4B01-AF1C-CF462B608A6B}.Debug|x64.Build.0 = Debug|x64
 		{E5B7E645-8062-4B01-AF1C-CF462B608A6B}.Release|x64.ActiveCfg = Release|x64
 		{E5B7E645-8062-4B01-AF1C-CF462B608A6B}.Release|x64.Build.0 = Release|x64
+		{10C7F91A-9061-4691-A5DE-C115BCC5CF50}.Debug|x64.ActiveCfg = Debug|x64
+		{10C7F91A-9061-4691-A5DE-C115BCC5CF50}.Debug|x64.Build.0 = Debug|x64
+		{10C7F91A-9061-4691-A5DE-C115BCC5CF50}.Release|x64.ActiveCfg = Release|x64
+		{10C7F91A-9061-4691-A5DE-C115BCC5CF50}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -398,6 +406,8 @@ Global
 		{E5B7E645-8062-4B01-AF1C-CF462B608A6B} = {1A003260-AFBF-43CE-931F-97701E3A8388}
 		{1A003260-AFBF-43CE-931F-97701E3A8388} = {DBE5D443-8D6F-4F18-A8A9-241081973759}
 		{5862D414-5DF1-4915-860C-436FBEADD642} = {DBE5D443-8D6F-4F18-A8A9-241081973759}
+		{4EF5DA70-711B-4818-A091-4758B214B891} = {DBE5D443-8D6F-4F18-A8A9-241081973759}
+		{10C7F91A-9061-4691-A5DE-C115BCC5CF50} = {4EF5DA70-711B-4818-A091-4758B214B891}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AFC375E-4B64-489B-95F7-A922B4A380C3}
