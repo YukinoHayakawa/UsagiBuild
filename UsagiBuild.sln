@@ -137,6 +137,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Asset Handlers", "Asset Han
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SahProgramModule", "Modules\Usagi\Modules\Assets\SahProgramModule\SahProgramModule.vcxproj", "{10C7F91A-9061-4691-A5DE-C115BCC5CF50}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoTextureRendering", "Demos\DemoTextureRendering\DemoTextureRendering.vcxproj", "{CCD365B3-AED3-408D-A8CE-F44F8C01889B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -343,6 +345,10 @@ Global
 		{10C7F91A-9061-4691-A5DE-C115BCC5CF50}.Debug|x64.Build.0 = Debug|x64
 		{10C7F91A-9061-4691-A5DE-C115BCC5CF50}.Release|x64.ActiveCfg = Release|x64
 		{10C7F91A-9061-4691-A5DE-C115BCC5CF50}.Release|x64.Build.0 = Release|x64
+		{CCD365B3-AED3-408D-A8CE-F44F8C01889B}.Debug|x64.ActiveCfg = Debug|x64
+		{CCD365B3-AED3-408D-A8CE-F44F8C01889B}.Debug|x64.Build.0 = Debug|x64
+		{CCD365B3-AED3-408D-A8CE-F44F8C01889B}.Release|x64.ActiveCfg = Release|x64
+		{CCD365B3-AED3-408D-A8CE-F44F8C01889B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -408,6 +414,7 @@ Global
 		{5862D414-5DF1-4915-860C-436FBEADD642} = {DBE5D443-8D6F-4F18-A8A9-241081973759}
 		{4EF5DA70-711B-4818-A091-4758B214B891} = {DBE5D443-8D6F-4F18-A8A9-241081973759}
 		{10C7F91A-9061-4691-A5DE-C115BCC5CF50} = {4EF5DA70-711B-4818-A091-4758B214B891}
+		{CCD365B3-AED3-408D-A8CE-F44F8C01889B} = {AF06B800-9AF4-4394-9AF1-159D9780A1F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AFC375E-4B64-489B-95F7-A922B4A380C3}

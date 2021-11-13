@@ -1,7 +1,7 @@
 <Project>
   <PropertyGroup>
     <PlatformToolset>ClangCL</PlatformToolset>
-    <LLVMInstallDir>C:\Program Files\LLVM</LLVMInstallDir>
+    <LLVMInstallDir>$(LLVM_Dir)</LLVMInstallDir>
     <LLVMToolsVersion>12.0.1</LLVMToolsVersion>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(PlatformToolset)'=='ClangCL'">
