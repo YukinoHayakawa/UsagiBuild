@@ -7,7 +7,7 @@
   <ItemDefinitionGroup Condition="'$(PlatformToolset)'=='ClangCL'">
     <ClCompile>
       <AdditionalOptions>-Xclang -std=c++20 -march=haswell -Wno-pragma-pack</AdditionalOptions>
-      <PreprocessorDefinitions>_HAS_CXX17;_HAS_CXX20;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_HAS_CXX23;_HAS_CXX20;_HAS_CXX17;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <PropertyGroup Label="Vcpkg">
