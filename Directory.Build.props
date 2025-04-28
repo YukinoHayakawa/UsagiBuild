@@ -2,8 +2,9 @@
   <PropertyGroup>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
-  <PropertyGroup Label="Globals">
-    <VcpkgTriplet Condition="'$(Platform)'=='x64'">x64-windows</VcpkgTriplet>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgUseStatic>true</VcpkgUseStatic>
+	<VcpkgTriplet Condition="'$(Platform)'=='x64'">x64-windows</VcpkgTriplet>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
