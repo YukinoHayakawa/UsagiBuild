@@ -2000,22 +2000,22 @@
         <Background Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="ComboBoxItemMouseOverBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="DropDownButtonMouseDownSeparator">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="DropDownButtonMouseOverSeparator">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="DropDownMouseDownBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="DropDownMouseOverBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="TitleBarActiveBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="CommandBarCheckBox">
         <Background Type="CT_RAW" Source="FF424242" />
@@ -5012,7 +5012,7 @@
         <Foreground Type="CT_RAW" Source="FF1E1E1E" />
       </Color>
       <Color Name="WonderbarSelectedBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="ContentSelectedBorder">
         <Background Type="CT_RAW" Source="FFF5F5F5" />
@@ -5821,7 +5821,7 @@
         <Foreground Type="CT_RAW" Source="FFC40A17" />
       </Color>
       <Color Name="Matched Selected Text">
-        <Background Type="CT_RAW" Source="FF3D3D3D" />
+        <Background Type="CT_RAW" Source="FFFFD1D1" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="MarkerFormatDefinition/SelectedTextInScrollBar">
@@ -8035,25 +8035,25 @@
     </Category>
     <Category Name="SearchControl" GUID="{f1095fad-881f-45f1-8580-589e10325eb8}">
       <Color Name="FocusedBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="FocusedDropDownButtonBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="FocusedDropDownSeparator">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="MouseDownDropDownButtonBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="MouseOverBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="MouseOverDropDownButtonBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="MouseOverDropDownSeparator">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="PopupControlMouseDownBackgroundGradientBegin">
         <Background Type="CT_RAW" Source="33A6B39B" />
@@ -9568,7 +9568,7 @@
         <Foreground Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="FocusVisualBorder">
-        <Background Type="CT_RAW" Source="FFA6B39B" />
+        <Background Type="CT_RAW" Source="FFFDDCFF" />
       </Color>
       <Color Name="DragDropInsertionArrow">
         <Background Type="CT_RAW" Source="FFE51400" />
