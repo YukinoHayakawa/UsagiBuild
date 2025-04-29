@@ -82,7 +82,7 @@
         <Foreground Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="CommandMouseOver">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="DialogExpanderGlyph">
@@ -225,15 +225,15 @@
         <Background Type="CT_RAW" Source="FFF5F5F5" />
       </Color>
       <Color Name="ListItemSecondarySelected">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="ListItemSelected">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="ListItemSelectedBorder">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="ListItemSecondaryOnHover">
         <Background Type="CT_RAW" Source="FFE0E0E0" />
@@ -333,7 +333,7 @@
         <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="BreadcrumbButtonOnHover">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="ComboBoxButtonPressed">
@@ -887,7 +887,7 @@
         <Foreground Type="CT_RAW" Source="FF333333" />
       </Color>
       <Color Name="PopupSelected">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="TextSelected">
         <Background Type="CT_RAW" Source="FF6C6C6C" />
@@ -1640,11 +1640,11 @@
         <Foreground Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="AdvancedListItemSelected">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="ControlSelectedItem">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="AdvancedListItemLink">
@@ -2000,31 +2000,31 @@
         <Background Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="ComboBoxItemMouseOverBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="DropDownButtonMouseDownSeparator">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="DropDownButtonMouseOverSeparator">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="DropDownMouseDownBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="DropDownMouseOverBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="TitleBarActiveBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="CommandBarCheckBox">
         <Background Type="CT_RAW" Source="FF424242" />
       </Color>
       <Color Name="ComboBoxItemMouseOverBackground">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="Highlight">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="ComboBoxItemMouseOverText">
         <Background Type="CT_RAW" Source="FF6C6C6C" />
@@ -2754,18 +2754,18 @@
         <Background Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="CommandBarMenuItemMouseOver">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="DebuggerDataTipActiveHighlight">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="ToolboxContentMouseOver">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="ToolboxDisabledContentMouseOver">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FFA2A4A5" />
       </Color>
       <Color Name="CommandBarMenuMouseDownGlyph">
@@ -3030,7 +3030,7 @@
         <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="CommandBarMenuItemMouseOverBorder">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="CommandBarBorder">
         <Background Type="CT_RAW" Source="1A000000" />
@@ -4156,7 +4156,7 @@
         <Foreground Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="DropDownMenuMouseDown">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="ErrorBorder">
@@ -4979,11 +4979,11 @@
         <Foreground Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="ContentSelected">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="WonderbarTreeSelected">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="WonderbarTreeInactiveSelected">
@@ -5012,7 +5012,7 @@
         <Foreground Type="CT_RAW" Source="FF1E1E1E" />
       </Color>
       <Color Name="WonderbarSelectedBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="ContentSelectedBorder">
         <Background Type="CT_RAW" Source="FFF5F5F5" />
@@ -5083,7 +5083,7 @@
         <Background Type="CT_RAW" Source="FF5A4579" />
       </Color>
       <Color Name="NotificationBubbleWindowButtonHover">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="NotificationBubbleBackground">
         <Background Type="CT_RAW" Source="FFFCFCFC" />
@@ -8035,25 +8035,25 @@
     </Category>
     <Category Name="SearchControl" GUID="{f1095fad-881f-45f1-8580-589e10325eb8}">
       <Color Name="FocusedBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="FocusedDropDownButtonBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="FocusedDropDownSeparator">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="MouseDownDropDownButtonBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="MouseOverBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="MouseOverDropDownButtonBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="MouseOverDropDownSeparator">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="PopupControlMouseDownBackgroundGradientBegin">
         <Background Type="CT_RAW" Source="33A6B39B" />
@@ -8190,13 +8190,13 @@
         <Background Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="PopupSectionHeaderGradientBegin">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="PopupSectionHeaderGradientEnd">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="PopupSectionHeaderSeparator">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="PopupSectionBackgroundGradientBegin">
         <Background Type="CT_RAW" Source="FFF5F5F5" />
@@ -8371,10 +8371,10 @@
         <Foreground Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="DefaultBannerLinkHover">
-        <Foreground Type="CT_RAW" Source="FFC79AEF" />
+        <Foreground Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="VideoRSSItemTitlePressed">
-        <Foreground Type="CT_RAW" Source="FFC79AEF" />
+        <Foreground Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="DefaultBannerLink">
         <Foreground Type="CT_RAW" Source="FFF5F5F5" />
@@ -9367,7 +9367,7 @@
         <Background Type="CT_RAW" Source="FFF5F5F5" />
       </Color>
       <Color Name="SelectedItemActive">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="StartWindowDescriptionActive">
@@ -9550,7 +9550,7 @@
         <Background Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="HighlightedSpan">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
         <Foreground Type="CT_RAW" Source="FF6C6C6C" />
       </Color>
       <Color Name="SelectedItemActive">
@@ -9568,7 +9568,7 @@
         <Foreground Type="CT_RAW" Source="FF616161" />
       </Color>
       <Color Name="FocusVisualBorder">
-        <Background Type="CT_RAW" Source="FFFDDCFF" />
+        <Background Type="CT_RAW" Source="FFE6D7FD" />
       </Color>
       <Color Name="DragDropInsertionArrow">
         <Background Type="CT_RAW" Source="FFE51400" />
@@ -9748,10 +9748,10 @@
         <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="IgnoredMouseOverBackground">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="IgnoredMouseOverBorder">
-        <Background Type="CT_RAW" Source="FFC79AEF" />
+        <Background Type="CT_RAW" Source="FFE0A4FF" />
       </Color>
       <Color Name="BadgeButtonCriticalActive">
         <Background Type="CT_RAW" Source="FFE51400" />
