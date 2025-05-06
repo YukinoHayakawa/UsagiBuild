@@ -1,0 +1,21 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Usagi Component</Name>
+    <Description>This template inherits vcpkg and clang related settings from the Directory.Build.props hierarchy and will compile to a DLL used by other Usagi Components. Intended for internal use by Usagi Engine only.</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>UsagiComponent</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>usagi-component.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="UsagiLibrary.vcxproj" File="UsagiLibrary.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">UsagiLibrary.vcxproj.filters</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

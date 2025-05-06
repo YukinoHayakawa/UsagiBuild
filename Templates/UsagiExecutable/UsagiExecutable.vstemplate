@@ -1,20 +1,21 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>Usagi Executable</Name>
-    <Description>This template loads Dir_IncludePath and Dir_LibraryPath defined in Directory.Build.props into project paths.</Description>
+    <Description>This template inherits vcpkg and clang related settings from the Directory.Build.props hierarchy and will compile to a console application. Intended for internal use by Usagi Engine only.</Description>
     <ProjectType>VC</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Include Directory.Build.props Paths Exe</DefaultName>
+    <DefaultName>DemoUsagiApplication</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>usagi-executable.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="IncludeDir.vcxproj" File="IncludeDir.vcxproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">IncludeDir.vcxproj.filters</ProjectItem>
+    <Project TargetFileName="UsagiExecutable.vcxproj" File="UsagiExecutable.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">UsagiExecutable.vcxproj.filters</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
